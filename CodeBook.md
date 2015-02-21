@@ -1,6 +1,7 @@
 ###Description of variables in the tidy data set
 All variables except "activity" and "subject ID" use the original feature names from features.txt in the UCI HAR data set. Each value in these columns (3-81) is the mean of the variable (column name) summarised in the corresponding activity (e.g. STANDING, SITTING) and subject (1-30) of that row. The units are the same as original. As required, "only the measurements on the mean and standard deviation for each measurement" are kept, hence the "mean" and "std" in variable names 3-81. The names of all variables are listed at the end of the code book. Their meaning (including excerpts from the original feature_info.txt) is provided below.
 
+####Meaning of feature names in tidy data set
 activity: six types of activities, including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
 
 subjectID: ID of 30 subjects, ranges from 1 to 30
