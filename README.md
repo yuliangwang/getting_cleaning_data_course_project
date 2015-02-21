@@ -9,6 +9,7 @@
 * As required, extract only features related to mean and standard deviation of variables (i.e., with "mean" or "std" in name)
 * Create a single data set "combined.activity.data" where the extracted X matrix, y and subject IDs are combined together
 * Replace activity code (1-6) with the corresponding descriptve labels (WALKING, SITTING, etc)
+
 ###Create a tidy data set with the average of each variable for each activity and each subject
 * Split the data from the previous step by activity and subject
 * Using sapply to calclutate the mean of each variable on the split data set
