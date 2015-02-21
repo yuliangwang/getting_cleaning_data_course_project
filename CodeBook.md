@@ -2,7 +2,9 @@
 All variables except "activity" and "subject ID" use the original feature names from features.txt in the UCI HAR data set. Each value in these columns (3-81) is the mean of the variable (column name) summarised in the corresponding activity (e.g. STANDING, SITTING) and subject (1-30) of that row. The units are the same as original. As required, "only the measurements on the mean and standard deviation for each measurement" are kept, hence the "mean" and "std" in variable names 3-81. The names of all variables are listed at the end of the code book. Their meaning (including excerpts from the original feature_info.txt) is provided below.
 
 activity: six types of activities, including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
+
 subjectID: ID of 30 subjects, ranges from 1 to 30
+
 The meaning of remaining variables are the same as described in the original feature_info.txt:
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
