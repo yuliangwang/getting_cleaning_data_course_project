@@ -1,3 +1,4 @@
+###Description of variables in the tidy data set
 * 1	activity
 * 2	subjectID
 * 3	tBodyAcc-mean()-X
